@@ -1,0 +1,31 @@
+.flash-card__container {
+  min-width: 292px;
+  height: 430px;
+  border: 1px solid rgba($color: #1E1E1E, $alpha: .34);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+  .flash-card__content {
+    padding-left: 30px;
+    padding-top: 23px;
+    padding-right: 30px;
+    h4 {
+      font-size: 60px;
+      font-family: 'Noto Sans', sans-serif;
+      color: #649374;
+    }
+    h5 {
+      font-size: 22px;
+      font-family: 'Noto Sans', sans-serif;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  .flash-card__image {
+    height: 175px;
+  }
+}

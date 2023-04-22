@@ -1,0 +1,17 @@
+.slide-prices__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 82%;
+  @media (max-width: 1330px) {
+    width: 90%;
+  }
+  @media (max-width: 1220px) {
+    width: 98%;
+  }
+  @media (max-width: 1120px) {
+    flex-direction: column;
+    width: 100%;
+  }
+}

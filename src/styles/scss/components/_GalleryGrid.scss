@@ -1,0 +1,27 @@
+.gallery-grid__container {
+  // width: calc((370px * 3) + 60px);
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  padding-left: 30px;
+  @media (max-width: calc((370px * 3) + 60px)) {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 30px;
+  }
+  overflow-x: scroll;
+  scrollbar-color: transparent transparent;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .gallery-grid__item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

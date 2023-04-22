@@ -1,0 +1,23 @@
+.gallery-grid-circle__container {
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  padding-left: 30px;
+  margin: 0 auto;
+  @media (max-width: 620px) {
+    width: 100%;
+  }
+  overflow-x: scroll;
+  scrollbar-color: transparent transparent;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .gallery-grid-circle__item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,99 @@
+@use '../base/variables' as v;
+
+.hero-empresas__container {
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  @media (max-width: 700px) {
+    height: 427px;
+  }
+  .hero-empresas__curve {
+    width: 910px;
+    height: 103%;
+    display: flex;
+    background-size: cover;
+    background-position: right;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -5px;
+    @media (max-width: 900px) {
+      width: 65%;
+      height: 95%;
+    }
+    @media (max-width: 794px) {
+      width: 75%;
+      height: 97%;
+    }
+    @media (max-width: 700px) {
+      width: 75%;
+      height: 97%;
+    }
+    @media (max-width: 460px) {
+      width: 100%;
+      height: 100%;
+    }
+    @media (max-width: 420px) {
+      width: 100%;
+      height: 90%;
+    }
+  }
+}
+
+.hero-circle__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 800px;
+  background-color: #CBE0D4;
+  .hero-circle__wave {
+    height: 155px;
+    width: 100%;
+  }
+  .hero-circlex__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 0 100px;
+    height: calc(100% - 155px);
+    width: 100%;
+    background-color: transparent;
+    max-width: 1440px;
+    .hero-circle__content--img {
+      width: 520px;
+      height: 520px;
+      border-radius: 50%;
+      @media(max-width: 1340px) {
+        width: 350px;
+        height: 350px;
+      }
+      @media(max-width: 1025px) {
+        width: 250px;
+        height: 250px;
+      }
+    }
+    .hero-circle__content--text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      span {
+        font-size: 20px;
+        text-transform: uppercase;
+        text-decoration: underline;
+        margin: 0 0 15px 0;
+      }
+      .hero-circle__text {
+        font-size: 40px;
+        margin: 0 0 12px 0;
+        @media(max-width: 1175px) {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,10 @@
+.form-t-enable,
+.form-t-disable {
+  &:hover {
+    font-weight: 700;;
+  }
+}
+
+.form-t-disable {
+  color: #1E1E1E;
+}

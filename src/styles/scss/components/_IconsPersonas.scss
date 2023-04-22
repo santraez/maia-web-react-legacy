@@ -1,0 +1,11 @@
+.icons-personas__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 82%;
+  @media (max-width: 900px) {
+    align-items: center;
+    flex-direction: column;
+  }
+}

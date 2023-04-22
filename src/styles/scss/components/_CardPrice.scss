@@ -1,0 +1,41 @@
+.card-price__container {
+  width: 365px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #F8F6F2;
+  padding: 50px 35px 30px 35px;
+  @media (max-width: 1365px) {
+    width: 360px;
+    height: 370px;
+  }
+  @media (max-width: 1330px) {
+    margin: 0 0 20px 0;
+  }
+  h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 400;
+  }
+  h4 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #649374;
+    span {
+      font-size: 16px;
+      font-weight: 400;
+      color: #1E1E1E;
+    }
+  }
+  h5 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}

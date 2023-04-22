@@ -1,0 +1,111 @@
+
+
+
+
+
+
+.form__container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #F8F6F2;
+  padding-top: 70px;
+  max-width: 1440px;
+  .form__toggle-pad {
+    margin-top: 30px;
+  }
+}
+.form__text {
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid #1E1E1E;
+  padding-bottom: 2px;
+  margin-top: 60px;
+  margin-bottom: 35px !important;
+  margin-bottom: 10px;
+}
+.form__toggle {
+  width: 420px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  border: 1px solid #1E1E1E;
+  border-radius: 40px;
+  padding: 5px;
+  margin-bottom: 10px;
+  @media (max-width: 450px) {
+    width: 330px;
+  }
+}
+.form-t-enable {
+  width: 207.5px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color: #649374;
+  @media (max-width: 450px) {
+    width: 180px;
+  }
+}
+.form-t-enable p {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.form-t-disable {
+  width: 207.5px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 450px) {
+    width: 180px;
+  }
+}
+.form-t-disable p {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.form__container form {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.form__container form input {
+  width: 100%;
+  border: none;
+  font-size: 28px;
+  margin-bottom: 40px;
+  padding: 10px 0;
+  background-color: transparent;
+  border-bottom: 1px solid #1E1E1E;
+  color: #1E1E1E;
+}
+.form__container form input:focus {
+  outline: none;
+}
+.form__input-button {
+  width: 250px !important;
+  height: 50px;
+  border: none !important;
+  border-radius: 40px;
+  background-color: #649374 !important;
+  align-self: flex-end;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  text-transform: uppercase;
+  color: #FFFFFF !important;
+  margin-top: 35px;
+}

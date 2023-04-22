@@ -1,0 +1,46 @@
+.dropmenu-container {
+  z-index: 999999;
+  .dropmenu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #FFFFFF;
+    height: 114px;
+    border-bottom: 1px solid #1E1E1E;
+    .dropmenu__logo {
+      width: 117px;
+      height: 36px;
+    }
+    .dropmenu__close {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .dropmenu__links--back {
+    width: 100%;
+    padding: 0 20px 30px 20px;
+    background-color: #FFFFFF;
+    .dropmenu__links {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 0 10px;
+      height: 77px;
+      color: #1E1E1E;
+      border-bottom: 1px solid #1E1E1E;
+      font-size: 22px;
+      &:hover {
+        font-weight: 700;
+      }
+      a {
+        color: #1E1E1E;
+      }
+    }
+    #lastlinks {
+      border-bottom: none;;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.comments__container {
+  background-color: #F8F6F2;
+  padding: 42px 0 37px 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  @media (max-width: 720px) {
+    padding: 30px 0 30px 30px;
+  }
+  .comments__text--back {
+    img {
+      width: 120px;
+      height: 65px;
+      margin-bottom: 10px;
+    }
+    .comments__text {
+      font-size: 24px;
+      width: 90%;
+      @media (max-width: 720px) {
+        font-size: 20px;
+      }
+    }
+  }
+  .comments__subtext--back {
+    h4 {
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: 'Noto Sans', sans-serif;
+      @media (max-width: 720px) {
+        font-size: 16px;
+      }
+    }
+    .comments__subtext {
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: 'Noto Sans', sans-serif;
+      @media (max-width: 720px) {
+        font-size: 16px;
+      }
+    }
+  }
+}

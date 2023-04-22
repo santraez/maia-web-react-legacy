@@ -1,0 +1,19 @@
+.slide-box__text {
+  .slide-box__text--title {
+    border-bottom: 1.5px solid #FFFFFF;
+    padding-bottom: 7px;
+    h3 {
+      user-select: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-weight: 400;
+      font-family: 'Noto Sans', sans-serif;
+    }
+  }
+  p {
+    user-select: none;
+    width: 70%;
+    color: #FFFFFF;
+    text-align: center;
+  }
+}
